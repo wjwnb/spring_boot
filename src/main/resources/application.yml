@@ -1,0 +1,13 @@
+server:
+  port: 8080
+my:
+  prop: aaa
+spring:
+  datasource:
+    username: root
+    password: root123
+    url:  jdbc:mysql://localhost:3306/idea?useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull
+    driver-class-name: com.mysql.jdbc.Driver
+mybatis:
+  mapper-locations: classpath:mybatis/mapper/**/*Mapper.xml
+  config-location: classpath:mybatis/mybatis-config.xml
